@@ -8,7 +8,7 @@ terraform {
 }
 
 locals {
-  customer_name = "sachin-PFM-${var.env}"
+  customer_name = "PFM-${var.env}"
 }
 
 data "aws_availability_zones" "available" {
