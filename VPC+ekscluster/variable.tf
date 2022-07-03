@@ -22,7 +22,7 @@ variable "env" {
 variable "region" {
   type        = string
   description = "set the aws region here"
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
 variable "instance_types" {
