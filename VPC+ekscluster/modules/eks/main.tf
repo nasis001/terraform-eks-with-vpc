@@ -8,7 +8,7 @@ terraform {
 }
 
 locals {
-  cluster_name = "sachin-PFM-1${var.env}"
+  cluster_name = "PFM-1${var.env}"
 }
 
 resource "aws_iam_role" "eks-iam-role" {
