@@ -7,9 +7,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "sachin-terraform-test"
+      bucket       = "bucket-pfm"
     key            = "terraform/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "ap-south-1"
     #dynamodb_table = "dynamo-db-table"
   }
 }
