@@ -7,9 +7,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "bucket-pfm"
+    bucket         = "eks-cluster-s3"
     key            = "terraform/terraform.tfstate"
-    region         = "ap-south-1"
+    region         = "us-gov-west-1"
     #dynamodb_table = "dynamo-db-table"
   }
 }
